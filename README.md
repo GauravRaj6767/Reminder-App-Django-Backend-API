@@ -31,3 +31,35 @@ Follow these steps to run the backend locally:
 ```bash
 git clone https://github.com/GauravRaj6767/Reminder-App-Django-Backend-API.git
 cd Reminder-App-Django-Backend-API
+```
+
+### 2. Create and Activate a Virtual Environment
+On Windows:
+```bash
+python -m venv env
+env\Scripts\activate
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Create .env File
+```env
+DEBUG=True
+SECRET_KEY=your-secret-key
+DATABASE_URL=your-neon-postgres-url
+```
+### 5. Apply Database Migrations
+```bash
+python manage.py migrate
+```
+
+### 6. Start the Development Server
+```bash
+python manage.py runserver
+```
+
+## Visit the API at:
+📡 http://localhost:8000/api
