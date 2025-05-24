@@ -1,6 +1,6 @@
-# 💊 Medicine Reminder App – Backend API
+# Reminder App – Backend API
 
-This is the backend for the **Medicine Reminder App**, built using **Django** and **Django Ninja**. It exposes a set of secure RESTful APIs for user authentication and managing medicine reminders.
+This is the backend for the **Reminder App**, built using **Django** and **Django Ninja**. It exposes a set of secure RESTful APIs for user authentication and managing medicine reminders.
 
 ---
 
@@ -16,7 +16,7 @@ This is the backend for the **Medicine Reminder App**, built using **Django** an
 ## 📂 Features
 
 - ✅ User registration and login with JWT
-- 💊 Create, update, and delete medicine reminders
+- 💊 Create, read, update, and delete  reminders (CRUD)
 - 🔒 Protected endpoints using JWT tokens
 - ⚙️ Admin panel and ORM support
 
